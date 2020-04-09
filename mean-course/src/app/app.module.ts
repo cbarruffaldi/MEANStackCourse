@@ -56,6 +56,6 @@ import { ErrorComponent } from './error/error.component';
     {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true}
   ],
   bootstrap: [AppComponent],
-  entryComponents: [ErrorComponent]
+  entryComponents: [ErrorComponent],
 })
 export class AppModule { }
